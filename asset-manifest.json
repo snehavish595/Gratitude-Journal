@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/gratitude-journal/static/css/main.1db459f6.css",
+    "main.js": "/gratitude-journal/static/js/main.c92ef760.js",
+    "static/js/453.8ab44547.chunk.js": "/gratitude-journal/static/js/453.8ab44547.chunk.js",
+    "index.html": "/gratitude-journal/index.html",
+    "main.1db459f6.css.map": "/gratitude-journal/static/css/main.1db459f6.css.map",
+    "main.c92ef760.js.map": "/gratitude-journal/static/js/main.c92ef760.js.map",
+    "453.8ab44547.chunk.js.map": "/gratitude-journal/static/js/453.8ab44547.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1db459f6.css",
+    "static/js/main.c92ef760.js"
+  ]
+}
