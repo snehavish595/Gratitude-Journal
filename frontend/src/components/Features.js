@@ -8,21 +8,21 @@ const Features = () => {
           Why Start a Gratitude Journal?
         </h3>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mx-10">
-          <div className="p-4 border rounded shadow-lg">
+          <div className="p-4 border rounded shadow-lg transform transition duration-300 hover:scale-105 hover:bg-blue-50 bg-white dark:bg-gray-800 dark:text-gray-300">
             <h4 className="text-xl font-bold mb-2">Write Your Gratitude</h4>
             <p>
               Take a moment each day to write down three things you are grateful
               for.
             </p>
           </div>
-          <div className="p-4 border rounded shadow-lg">
+          <div className="p-4 border rounded shadow-lg transform transition duration-300 hover:scale-105 hover:bg-blue-50 bg-white dark:bg-gray-800 dark:text-gray-300">
             <h4 className="text-xl font-bold mb-2">Reflect on Your Journey</h4>
             <p>
               Look back at your past entries and reflect on the joy you have
               cultivated.
             </p>
           </div>
-          <div className="p-4 border rounded shadow-lg">
+          <div className="p-4 border rounded shadow-lg transform transition duration-300 hover:scale-105 hover:bg-blue-50 bg-white dark:bg-gray-800 dark:text-gray-300">
             <h4 className="text-xl font-bold mb-2">Simple and Intuitive</h4>
             <p>
               Our clean design makes it easy to focus on what matters: your

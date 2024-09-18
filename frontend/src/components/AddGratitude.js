@@ -34,7 +34,7 @@ const AddGratitude = ({ setGratitudes, gratitudes }) => {
         value={gratitude1}
         onChange={(e) => setGratitude1(e.target.value)}
         placeholder="I am grateful for..."
-        className="block w-3/4 p-2 border rounded"
+        className="block w-3/4 p-2 border rounded bg-white text-black dark:bg-gray-700 dark:text-gray-200 dark:border-gray-600"
         required
       />
       <input
@@ -42,7 +42,7 @@ const AddGratitude = ({ setGratitudes, gratitudes }) => {
         value={gratitude2}
         onChange={(e) => setGratitude2(e.target.value)}
         placeholder="I am grateful for..."
-        className="block w-3/4 p-2 border rounded"
+        className="block w-3/4 p-2 border rounded bg-white text-black dark:bg-gray-700 dark:text-gray-200 dark:border-gray-600"
         required
       />
       <input
@@ -50,12 +50,12 @@ const AddGratitude = ({ setGratitudes, gratitudes }) => {
         value={gratitude3}
         onChange={(e) => setGratitude3(e.target.value)}
         placeholder="I am grateful for..."
-        className="block w-3/4 p-2 border rounded"
+        className="block w-3/4 p-2 border rounded bg-white text-black dark:bg-gray-700 dark:text-gray-200 dark:border-gray-600"
         required
       />
       <button
         type="submit"
-        className="bg-blue-500 text-white py-2 px-4 rounded"
+        className="bg-blue-500 text-white dark:bg-gray-700 dark:text-gray-200 py-2 px-4 rounded"
       >
         Add Entry
       </button>
