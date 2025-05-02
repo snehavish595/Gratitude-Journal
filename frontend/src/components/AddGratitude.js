@@ -54,7 +54,7 @@ const AddGratitude = ({ setGratitudes, gratitudes }) => {
         required
       />
       <button
-        type="submit"
+        type="submit" onSubmit={handleSubmit}
         className="bg-blue-500 text-white dark:bg-gray-700 dark:text-gray-200 py-2 px-4 rounded"
       >
         Add Entry

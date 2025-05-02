@@ -7,11 +7,11 @@ const HeroSection = () => {
       initial={{ opacity: 0, y: -50 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8 }}
-      className="relative bg-blue-100 py-16 dark:bg-gray-900"
+      className="relative bg-gradient-to-r from-blue-400 via-blue-600 to-indigo-500 py-24 dark:bg-gray-900"
     >
-      <div className="container mx-auto text-center">
+      <div className="container mx-auto text-center px-6">
         <motion.h2
-          className="text-4xl font-bold mb-4 text-black dark:text-white"
+          className="text-5xl font-extrabold text-white mb-4 leading-tight"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.3 }}
@@ -19,7 +19,7 @@ const HeroSection = () => {
           Start Your Gratitude Journey
         </motion.h2>
         <motion.p
-          className="text-lg mb-8 text-gray-700 dark:text-gray-300"
+          className="text-xl text-white mb-8 leading-relaxed dark:text-gray-300"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.6 }}
@@ -28,9 +28,9 @@ const HeroSection = () => {
         </motion.p>
         <motion.a
           href="#add-entry"
-          className="bg-blue-500 text-white dark:bg-gray-700 dark:text-gray-200 py-2 px-4 rounded"
+          className="bg-white text-blue-500 hover:text-white hover:bg-blue-600 py-3 px-6 rounded-full shadow-xl transform transition duration-300"
           whileHover={{ scale: 1.1 }}
-          whileTap={{ scale: 0.9 }}
+          whileTap={{ scale: 0.95 }}
         >
           Add Your First Entry
         </motion.a>
