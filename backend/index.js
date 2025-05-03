@@ -14,11 +14,7 @@ const gratitudeRoutes = require("./routes/gratitude");
 app.use("/api", gratitudeRoutes);
 
 // MongoDB connection
-mongoose
-  .connect(process.env.MONGO_URI, {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-  })
+mongoose.connect(process.env.MONGO_URI)
   .then(() => console.log("MongoDB connected"))
   .catch((err) => console.log(err));
 
