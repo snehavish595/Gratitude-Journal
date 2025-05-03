@@ -28,6 +28,7 @@ function App() {
       {/* <ToggleButton toggleTheme={toggleTheme} /> */}
       {/* <Navbar toggleTheme={toggleTheme} /> */}
       <HomePage setGratitudes={setGratitudes} gratitudes={gratitudes} />
+      
     </div>
   );
 }

@@ -3,7 +3,7 @@ import Navbar from "../components/Navbar";
 import HeroSection from "../components/HeroSection";
 import Features from "../components/Features";
 import AddGratitude from "../components/AddGratitude";
-import GratitudeTimeline from "../components/GratitudeTimeline";
+import GratitudeSection from "../components/GratitudeSection";
 import Footer from "../components/Footer";
 
 const HomePage = ({ setGratitudes, gratitudes }) => {
@@ -42,7 +42,10 @@ const HomePage = ({ setGratitudes, gratitudes }) => {
           <h3 className="text-2xl font-bold mb-4 text-center">
             Your Gratitude Timeline
           </h3>
-          <GratitudeTimeline gratitudes={gratitudes} />
+          <GratitudeSection
+  gratitudes={gratitudes}
+  setGratitudes={setGratitudes}
+/>
         </div>
       </section>
       <Footer />
