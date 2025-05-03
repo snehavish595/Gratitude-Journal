@@ -23,7 +23,7 @@ const HomePage = ({ setGratitudes, gratitudes }) => {
       <Navbar toggleTheme={toggleTheme} />
       <HeroSection />
       <Features />
-      <section
+      {/* <section
         id="add-entry"
         className={`py-16 mx-10 ${isDarkMode ? "bg-gray-800" : "bg-blue-100"}`}
       >
@@ -33,7 +33,7 @@ const HomePage = ({ setGratitudes, gratitudes }) => {
           </h3>
           <AddGratitude setGratitudes={setGratitudes} gratitudes={gratitudes} />
         </div>
-      </section>
+      </section> */}
       <section
         id="timeline"
         className={`py-16 mx-10 ${isDarkMode ? "bg-gray-800" : "bg-gray-50"}`}
