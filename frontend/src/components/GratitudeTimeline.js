@@ -40,14 +40,20 @@ const GratitudeTimeline = ({ gratitudes, setGratitudes }) => {
     }
   };
 
+  // This logs the current gratitudes data to see if there is more than 3 entries
+  console.log(gratitudes);
+
   return (
-    <div className="overflow-y-auto flex-1 pr-2 custom-scrollbar">
-      <div className="space-y-4 pb-4">
+    <div className="flex-1 pr-2">
+      <div
+        className="overflow-y-auto pb-4"
+        style={{ maxHeight: "500px" }} // Ensuring max height and scrolling
+      >
         {gratitudes.length > 0 ? (
-          [...gratitudes].reverse().map((entry) => (
+          gratitudes.reverse().map((entry) => ( // Removing [ ] to directly map the array.
             <div
               key={entry._id}
-              className="bg-white dark:bg-gray-800 shadow-md border border-gray-200 dark:border-gray-700 rounded-lg p-4"
+              className="bg-white dark:bg-gray-800 shadow-md border border-gray-200 dark:border-gray-700 rounded-lg p-4 mb-2"
               data-aos="fade-up"
             >
               <p className="text-sm text-gray-500 dark:text-gray-400 mb-3">

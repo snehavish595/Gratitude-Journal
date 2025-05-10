@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import HomePage from "./pages/HomePage";
-// import ToggleButton from "./components/ToggleButton";
-import Navbar from "./components/Navbar";
 import "./index.css";
 
 function App() {
@@ -18,11 +16,11 @@ function App() {
     axios
       .get("http://localhost:5000/api/entries")
       .then((response) => {
-        setGratitudes(response.data);
+        setGratitudes(response.data); // Check this line to ensure it's working properly
       })
       .catch((error) => console.error("Error fetching data:", error));
   }, []);
-
+  
   return (
     <div className={`App ${isDarkMode ? "dark" : ""}`}>
       {/* <ToggleButton toggleTheme={toggleTheme} /> */}
