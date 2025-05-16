@@ -5,6 +5,7 @@ import Features from "../components/Features";
 import AddGratitude from "../components/AddGratitude";
 import GratitudeSection from "../components/GratitudeSection";
 import Footer from "../components/Footer";
+import Testimonials from "../components/Testimonials";
 
 const HomePage = ({ setGratitudes, gratitudes }) => {
   const [isDarkMode, setIsDarkMode] = useState(false);
@@ -23,6 +24,7 @@ const HomePage = ({ setGratitudes, gratitudes }) => {
       <Navbar toggleTheme={toggleTheme} />
       <HeroSection />
       <Features />
+      <Testimonials />
       {/* <section
         id="add-entry"
         className={`py-16 mx-10 ${isDarkMode ? "bg-gray-800" : "bg-blue-100"}`}
